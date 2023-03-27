@@ -17,5 +17,5 @@ async function deleteEvent(req: Request, res: Response) {
 
   
   app.delete('/events/:id', deleteEvent);
- 
+
 
